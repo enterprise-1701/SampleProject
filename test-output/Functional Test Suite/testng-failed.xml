@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="18" parallel="methods" data-provider-thread-count="1" name="Failed suite [Functional Test Suite]" guice-stage="DEVELOPMENT" verbose="5">
+  <parameter name="browser" value="Chrome"/>
+  <test thread-count="18" parallel="methods" name="Functional(failed)" verbose="5">
+    <classes>
+      <class name="com.app.qa.ThirdTest">
+        <methods>
+          <include name="thirdTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.app.qa.ThirdTest -->
+    </classes>
+  </test> <!-- Functional(failed) -->
+</suite> <!-- Failed suite [Functional Test Suite] -->
